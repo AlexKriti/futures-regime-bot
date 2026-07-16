@@ -1,0 +1,32 @@
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+data/artifacts/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/artifacts/.gitkeep
+
+# Outputs
+outputs/figures/*
+outputs/reports/*
+outputs/logs/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/logs/.gitkeep
+
+# Model/data artifacts
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.dbn
+
+# Test/cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
